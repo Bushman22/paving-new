@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [
       {
-        url: "https://www.thomsonpaving.co.za/logo.jpg",
+        url: "https://www.thomsonpaving.co.za/images/About/Cladding/six.jpeg",
         alt: "Open Graph Image",
       },
     ],
