@@ -12,7 +12,7 @@ function Home() {
       <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-5'>
         <div className='flex flex-col gap-3'>
           <h1 className={title()}>
-            High Volume, Quality <br /> South African <span className='text-red-500'>Paving</span>
+            <span className='max-md:text-3xl'>High Volume, Quality <br className='' /> South African </span><span className='text-red-500 max-md:text-3xl'>Paving</span>
           </h1>
           <h2 className={subtitle()}>
             Serving Our Clients for Over 25+ Years
