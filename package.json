@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.2",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.2.13",
     "next": "14.2.4",
     "next-themes": "^0.3.0",
@@ -17,7 +18,8 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "@types/node": "^20",
