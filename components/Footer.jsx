@@ -46,13 +46,13 @@ function Footer() {
                         <h1 className='font-semibold mb-5 max-md:mt-5'>Social Media</h1>
                         <div className='flex flex-col gap-1 text-default-500'>
                             <div className='flex gap-2 items-center'>
-                                <Link isExternal aria-label="Whatsapp" href={siteConfig.links.whatsapp}>
+                                <Link target='_blank' aria-label="Whatsapp" href={siteConfig.links.whatsapp}>
                                     <FaWhatsapp className="text-default-500 w-6 h-6" />
                                 </Link>
-                                <Link isExternal aria-label="Facebook" href={siteConfig.links.facebook}>
+                                <Link target='_blank' aria-label="Facebook" href={siteConfig.links.facebook}>
                                     <AiOutlineFacebook className="text-default-500 w-6 h-6" />
                                 </Link>
-                                <Link isExternal aria-label="Mail" href={siteConfig.links.mail}>
+                                <Link  target="_blank" aria-label="Mail" href={siteConfig.links.mail}>
                                     <CiMail className="text-default-500 w-6 h-6" />
                                 </Link>
                             </div>

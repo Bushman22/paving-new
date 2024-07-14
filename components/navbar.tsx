@@ -58,10 +58,10 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
+        className="hidden lg:flex basis-1/5 sm:basis-full"
         justify="end"
       >
-        <NavbarItem className="hidden sm:flex gap-2">
+        <NavbarItem className="sm:flex gap-2">
           <Tooltip content="Whatsapp">
             <Link isExternal aria-label="Whatsapp" href={siteConfig.links.whatsapp}>
               <FaWhatsapp className="text-default-500 w-6 h-6" />
@@ -78,7 +78,7 @@ export const Navbar = () => {
             </Link>
           </Tooltip>
         </NavbarItem>
-        <NavbarItem className="hidden md:flex">
+        <NavbarItem className="md:flex">
           <Button
             showAnchorIcon
             as={Link}
@@ -91,7 +91,7 @@ export const Navbar = () => {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden basis-1 " justify="end">
+      <NavbarContent className="lg:hidden basis-1 " justify="end">
         <NavbarItem className="flex gap-2 mr-2">
           <Tooltip content="Whatsapp">
             <Link isExternal aria-label="Whatsapp" href={siteConfig.links.whatsapp}>

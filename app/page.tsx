@@ -42,7 +42,7 @@ function Home() {
         <div className='flex flex-col gap-5 max-md:pt-20'>
           <h1 className='text-4xl font-semibold'>A little about us</h1>
           <p>
-            Thomson Paving was established in 1996 and we are a leading provider of residential, commercial and industrial paving. We're passionate about getting the job done while creating something beautiful to look at.
+            Thomson Paving was established in 1996 and we are a leading provider of residential, commercial and industrial paving. We&apos;re passionate about getting the job done while creating something beautiful to look at.
           </p>
           <p>
             Our business approach and values are centred around client satisfaction, undertaking each project with enthusiasm and attention to detail, irrespective of the size of your project.
